@@ -1,0 +1,12 @@
+﻿1. When we want to have a string that won't be changed later, we want to use string. If we want to have a string that will be modified a lot, we want to use StringBuilder.
+
+2. The base class for all arrays is System.Array.
+
+3. We can use Array.sort(ourArray) to sort arrays.
+
+4. We can use Length property to get the total number of elements in an array.
+
+5. No, the type of data is set when we declare the array.
+
+6. Array.Copyto() is used to copy the elements of all array to a target array that is already defined, which means that the target array must have the same type and length
+   as the source array. Array.Clone() creates a new array that contain same elements as the source array.
