@@ -1,0 +1,53 @@
+﻿Understanding Data Types
+1. (i) string
+   (ii) byte if in cm, float if in m
+   (iii) byte
+   (iv) string
+   (v) decimal
+   (vi) string
+   (vii) float
+   (viii) float
+   (ix) uint
+   (x) ulong
+   (xi) ushort
+
+2. (i)
+   Value types store data directly in stack memory while, while reference types store reference of the data in stack memory and store the actual data in heap memory;
+   Value types cannot accept null value, while reference types can;
+   Doing operation on one value type variable will not affect another, while it may happen for reference type variables;
+   Value types are created by struct or enum, while reference types are created by class, interface, delegate, or array;
+   Value types will not collected by garbage collector, while reference types will.
+   (ii)
+   Boxing is the process of converting a value type into a reference type, and unboxing is the process of converting a reference type into a value type.
+
+3. Managed resources are handled by CLR and the memory is managed by the garbage collector, so the memory will be allocated and deallocated automatically. Unmanaged resources
+   are not handled by the garbage collector and we need to use Dispose() in IDisposable interface to manage the memory.
+
+4. The garbage collector manages the allocation and deallocation of memory for the managed resources of an application. It can help with common problems like memory leak or
+   accessing freed memory location.
+
+Controlling Flow and Converting Types
+1. There will be an error indicates that the attempt to divide by zero is not valid.
+
+2. We will get the infinity.
+
+3. We cannot directly assign it a value that out of its boundary as it will give us an error. However, we can us casting to convert the value, and it will warps around under
+   modular arithmetic.
+
+4. x = y ++ works as x = y, y = y + 1, and x = ++ y works as y = y + 1, x = y.
+
+5. "break" will terminate the loop completely and goes to the first statement after the loop;
+   "continue" will terminate the correct iteration and skip the code inside the loop that comes after it;
+   "return" will exit the current method.
+
+6. The first part is the initialization, which indicates where the for statement should start; the second part is the checking condition which decides when the for statement
+   should end; the third part is the iteration of loop which decides how the for loop iterates. All three parts are not required as the initialization can be declared outside
+   the for statement, and both condition check and iteration can be done inside the loop statements.
+
+7. "=" is used to assign value to a variable, and it will not return any thing, while "==" is used to determine whether two things are equal, it will return a boolean value.
+
+8. It can complie, but it will result in an infinite loop.
+
+9. In a switch expression, _ is used as a catch-all case. Namely, all cases that do not match a specific pattern defined will result in the case of _.
+
+10 We need to implement the IEnumerable interface.
