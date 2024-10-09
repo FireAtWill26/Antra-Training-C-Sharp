@@ -1,0 +1,38 @@
+﻿1. public: can be accessible anywhere by anyone;
+   private: can only be accessed within the same class;
+   protected: can only be accessed within the same class and the derived classes;
+   internal: can only be accessed within the same assembly;
+   protected internal: can onnly be accessed within the same assembly and any derived classes;
+   private protected: can only be accessed within the same class or derived classes in the same assembly.
+
+2. static is used to declare that the member belongs to the type itself, rather than an instance of the type. That is, the member is shared among all instance of the class it
+   is declared in. It can be modified unless the member is readonly as well and the modification will affect all instance of the class;
+   const is used to declare a constant member in compile-time. The member can no longer be changed once it is initialized and can only hold primitive type or string;
+   readonly is used to declare a variable that can initialized while declaration or within a constructor. The member cannot be modified after declaration.
+
+3. A constructor is used to call to created an innstance of the class or struct. By calling a constructor, we will initialize the object by initialize the fields or properties
+   that initialized in the constructor as well as execute the methods inside.
+
+4. partial keyword is useful as sometimes when we are creating a large class or struct, we may write separate it in multiple parts and work with multiple people. By using
+   partial, we can make the process of writing the class or struct much more organisable.
+
+5. A tuple is a data structure with fixed number of elements in potentially different data type. The size of the tuple and types of elements are set during declaration. Moreover
+   tuple is not mutable after initialized.
+
+6. record creates a data-carrying object whose dadta is immutatble. Moreover, record carries value equality, which means we can compare two records to get a boolean result of
+   equality.
+
+7. overloading and overriding are two ways of polymorphism. overloading is used within a class to declare multiple methods with same name but different inputs or ouputs. 
+   overriding is used in a derived class to replace the method with same name in the base class. overriding methods must have the same signature as the same name method in the
+   base class and the original method must be in either virtual or abstract mode.
+
+8. Both fileds and properties are variables declared inside a class, but properties offer controlled access through getters and setters.
+
+9. We can make a method parameter optional by giving it an default value.
+
+10. An interface is like an abstract class but all its members are all abstract and public, and has no fields, state, or constructor. Moreover, a class can implement more than 
+    one interface, but can implement at most one abstract class. Moreover, when we override methods from an interface, we don't need to use the override keyword.
+
+11. All members of an interface will have public accessibility level.
+
+12. True   13. True   14. True   15. False   16, True   17. True   18. True   19. False   20. False   21. True   22. False   23. True
