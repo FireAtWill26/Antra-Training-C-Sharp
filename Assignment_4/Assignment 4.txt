@@ -1,0 +1,18 @@
+﻿1. When we want to implement a functionality that works for multiple types with the same logic, we will have to use overload to adjust for each of the types and that is
+   both messy and tedious. Instead, we can use generic classes or methods to create the functionality for multiple types all at once.
+
+2. We can use the code 
+   List<string> str = new List<string>();
+
+3. There are two generic type parameters, where the first one is for key annd the second one is for value.
+
+4. False
+
+5. We can use the method Add() to add items to a list.
+
+6. Remove() and Clear().
+
+7. We can declare the class using the code
+   AccessLevel class OurClass<T>
+
+8. False	9. True		10. True

@@ -1,0 +1,14 @@
+D:\Projects\ConsoleApp\Assignment_4\bin\Debug\net8.0\Assignment_4.exe
+D:\Projects\ConsoleApp\Assignment_4\bin\Debug\net8.0\Assignment_4.deps.json
+D:\Projects\ConsoleApp\Assignment_4\bin\Debug\net8.0\Assignment_4.runtimeconfig.json
+D:\Projects\ConsoleApp\Assignment_4\bin\Debug\net8.0\Assignment_4.dll
+D:\Projects\ConsoleApp\Assignment_4\bin\Debug\net8.0\Assignment_4.pdb
+D:\Projects\ConsoleApp\Assignment_4\obj\Debug\net8.0\Assignment_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ConsoleApp\Assignment_4\obj\Debug\net8.0\Assignment_4.AssemblyInfoInputs.cache
+D:\Projects\ConsoleApp\Assignment_4\obj\Debug\net8.0\Assignment_4.AssemblyInfo.cs
+D:\Projects\ConsoleApp\Assignment_4\obj\Debug\net8.0\Assignment_4.csproj.CoreCompileInputs.cache
+D:\Projects\ConsoleApp\Assignment_4\obj\Debug\net8.0\Assignment_4.dll
+D:\Projects\ConsoleApp\Assignment_4\obj\Debug\net8.0\refint\Assignment_4.dll
+D:\Projects\ConsoleApp\Assignment_4\obj\Debug\net8.0\Assignment_4.pdb
+D:\Projects\ConsoleApp\Assignment_4\obj\Debug\net8.0\Assignment_4.genruntimeconfig.cache
+D:\Projects\ConsoleApp\Assignment_4\obj\Debug\net8.0\ref\Assignment_4.dll
